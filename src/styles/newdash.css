@@ -1,0 +1,325 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  background-color: #f5f7fa;
+}
+.newdash {
+  display: grid;
+  grid-template-columns: 300px 80vw;
+  width: 100vh;
+  height: 100vh;
+  padding: 5vh 2vw;
+  font-family: "Poppins", sans-serif;
+}
+.nav_container {
+  padding: 60px 20px;
+  border-radius: 20px;
+  width: 300px;
+  height: 90vh;
+  background-color: #0d46c1;
+  position: relative;
+}
+.doctor_profile_container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.doctor_profile_image {
+  width: 100px;
+  height: 100px;
+  border-radius: 200px;
+  background-size: cover;
+  background-position: center;
+  margin-bottom: 20px;
+}
+.doctor_name {
+  color: #e0e1e6;
+  font-size: 20px;
+  font-weight: 700;
+}
+.doctor_speciality {
+  color: #93aee7;
+  font-size: 16px;
+}
+
+.nav_links {
+  margin-top: 70px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  font-size: 20px;
+  font-weight: 500;
+}
+.nav_link {
+  text-decoration: none;
+  color: #93aee7;
+
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+  width: 250px;
+  padding-left: 55px;
+  animation: all 0.4s ease-in;
+  cursor: pointer;
+}
+
+.nav_link:hover,
+.logout:hover {
+  background-color: rgba(255, 255, 255, 0.473);
+  border-radius: 20px;
+  color: #0d46c1b9;
+}
+
+.nav_link.active {
+  background-color: white;
+  border-radius: 20px;
+  color: #0d46c1;
+}
+.nav_link > * {
+  margin-right: 10px;
+}
+.main_container {
+  padding: 0 30px;
+}
+
+.main_container_heading {
+  font-size: 24px;
+  font-weight: 700;
+  color: #18324f;
+}
+
+.stats_grid {
+  margin-top: 40px;
+  width: 100%;
+  display: flex;
+
+  justify-content: space-between;
+}
+.stats_grid:not(:last-child) {
+  margin-right: 20px;
+}
+
+.stats_card {
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  height: 150px;
+  align-items: center;
+  width: 100%;
+  margin-right: 40px;
+}
+
+.stats_card_icon {
+  background-color: #f9f3ff;
+  padding: 10px;
+  color: #a249ff;
+  border-radius: 15px;
+  font-size: 25px;
+  margin-right: 20px;
+}
+.stat_card_icon-cal {
+  color: #2ec99f;
+}
+.stats_card_icon-heart {
+  color: #ffaeb5;
+}
+
+.stats_card_icon .MuiSvgIcon-root {
+  font-size: 40px !important;
+}
+
+.stats_details {
+  display: flex;
+  flex-direction: column;
+}
+.stats_card_title {
+  font-size: 20px;
+  color: #18324f;
+
+  margin-bottom: 8px;
+}
+.stats_card_number {
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.logout {
+  cursor: pointer;
+  text-align: center;
+  padding: 20px 0;
+  width: 250px;
+  position: absolute;
+  bottom: 40px;
+  transform: translate(-50%, -50%);
+  left: 50%;
+  color: #93aee7;
+  font-size: 20px;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.logout > * {
+  margin-right: 10px;
+}
+
+.appointment_gird {
+  width: 100%;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-column-gap: 50px;
+}
+
+.appointment_grid_item {
+  margin-top: 20px;
+
+  padding: 20px 10px;
+}
+.appointment_gird_heading {
+  color: #18324f;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.appointmentGrid_card {
+  margin-top: 20px;
+  border-radius: 15px;
+  background-color: white;
+  padding: 0 20px;
+  height: 400px;
+  overflow-y: scroll;
+}
+
+.upcoming_appointment_tile {
+  padding: 20px 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.upcoming_patient_details {
+  display: flex;
+}
+.upcoming_patient_subdetail {
+  margin-left: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.upcoming_patient_image {
+  width: 60px;
+  height: 60px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 200px;
+}
+.upcoming_patient_name {
+  font-size: 18px;
+  font-weight: 500;
+}
+.upcoming_patient_time {
+  color: #5c7fcc;
+
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.upcoming_patient_date {
+  color: #0d46c1;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.appointmentGrid_card.next_appointment {
+  height: 400px;
+}
+
+.next_appointment {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.next_appointment_patient_details {
+  display: flex;
+  align-items: center;
+}
+
+.next_appointment_patient_image {
+  height: 80px;
+  width: 80px;
+  border-radius: 200px;
+  background-size: cover;
+  background-position: center;
+}
+.next_appointment_patient_subdetails {
+  margin-left: 25px;
+}
+.next_appointment_patient_name {
+  font-size: 20px;
+  font-weight: 500;
+}
+.next_appointment_patient_date,
+.next_appointment_patient_time {
+  font-size: 16px;
+  font-weight: 500;
+  color: #5c7fcc;
+}
+
+.next_appointment_buttons {
+  display: flex;
+}
+.next_appointment_buttons button {
+  margin-right: 20px;
+  border-radius: 10px;
+  font-family: inherit;
+}
+
+.next_appointment_buttons .prescribe {
+  background-color: #0099ff;
+  color: white;
+  font-family: inherit;
+}
+.next_appointment_buttons .chat {
+  border-color: #0099ff;
+  color: #0099ff;
+}
+.next_appointment_age_symptom_container {
+  display: flex;
+  margin-top: 45px;
+
+  justify-content: space-around;
+}
+.next_appointment_patient_symptoms_heading {
+  font-size: 18px;
+  font-weight: 500;
+}
+.next_appointment_patient_symptoms_list li {
+  font-size: 17px;
+}
+.next_appointment_age_tile {
+  display: flex;
+  align-items: center;
+}
+.age_heading {
+  font-size: 17px;
+  font-weight: 500;
+}
+.age_value {
+  font-size: 17px;
+}
+.next_appointment_age_tile {
+  margin-bottom: 10px;
+}
+
+.calender_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

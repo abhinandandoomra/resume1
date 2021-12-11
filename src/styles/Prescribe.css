@@ -1,0 +1,129 @@
+.prescribe__container {
+  position: relative;
+  font-family: inherit;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 40px;
+  padding: 30px 30px;
+  height: 90vh;
+}
+
+.appointmentid {
+  width: 400px;
+  padding: 10px 20px;
+  border-radius: 15px;
+  display: flex;
+  background-color: #f2faff;
+}
+.appointmentid_heading {
+  font-size: 20px;
+  font-weight: 500;
+}
+.appointmentid_id {
+  font-size: 20px;
+}
+
+.prescribe__info {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.prescribe__infodata {
+  display: flex;
+}
+.prescribe__infodataImg {
+  height: 200px;
+}
+.prescribe__centercontainer {
+  display: grid;
+  grid-template-columns: 60% 40%;
+  grid-column-gap: 50px;
+  margin-top: 50px;
+}
+.prescribe__centercontainer h3 {
+  margin-bottom: 30px;
+}
+.prescribe__infodataleft {
+  margin-left: 20px;
+}
+
+.medicine-form > * {
+  width: 100% !important;
+}
+.MuiTextField-root {
+  width: 100%;
+}
+.addMedicineBtn {
+  margin-top: 20px !important;
+  background-color: #0099ff !important;
+  color: white !important;
+  font-family: inherit !important;
+}
+.addMedicineBtn.Mui-disabled {
+  background-color: rgba(0, 0, 0, 0.26) !important;
+  color: #dfdfdf !important;
+}
+
+.prescribe__Name {
+  font-size: 28px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+.prescribe__email,
+.prescribe__phone,
+.prescribe__address {
+  font-size: 20px;
+  color: gray;
+  margin-top: 5px;
+}
+.prescribe__iconcenter {
+  display: flex;
+  align-items: center;
+}
+.prescribe__iconcenter_icon {
+  display: flex;
+  align-items: center;
+  color: #0d46c1;
+  margin-right: 10px;
+}
+
+.med_list li {
+  background-color: #f2faff;
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+.med_list li div {
+  display: flex;
+
+  align-items: center;
+}
+.med_list li div span {
+  font-family: inherit !important;
+  font-size: 16px;
+  text-transform: capitalize;
+}
+.edit-btn {
+  background-color: #0099ff !important;
+  color: white !important;
+  padding: auto 30px !important;
+  margin-right: 10px !important;
+  font-family: inherit !important;
+}
+.delete-btn {
+  font-size: 30px !important;
+  font-family: inherit !important;
+}
+
+.submit_prescription_button {
+  position: absolute !important;
+  border-radius: 10px !important;
+  bottom: 40px !important;
+  width: 96%;
+  height: 50px;
+  background-color: #0099ff !important;
+  color: white !important;
+  font-family: inherit !important;
+  font-size: 20px !important;
+}

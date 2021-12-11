@@ -1,0 +1,61 @@
+.home__uppergrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 20px;
+  margin: 20px;
+}
+.home__middlegrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr 1fr;
+  grid-column-gap: 20px;
+  margin: 20px;
+}
+.home__lowergrid {
+  display: grid;
+  grid-template-columns: 2.5fr 1.5fr;
+  grid-column-gap: 20px;
+  margin: 20px;
+}
+.home__bookinfo {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px 20px;
+}
+.home__bookButton {
+  border: 1px solid #2cd889;
+  border-radius: 999px;
+  background-color: #fff;
+  padding: 10px 20px;
+  text-transform: capitalize;
+  cursor: pointer;
+  margin: 20px 0;
+}
+.personal-info {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.home__r1c1,
+.home__r1c2,
+.home__r1c3,
+.home__r1c4 {
+  border-bottom: 1px solid #d8eae6;
+}
+.home__r1c2,
+.home__r2c2 {
+  border-right: 1px solid #d8eae6;
+}
+.home__r1c2,
+.home__r1c4,
+.home__r2c2,
+.home__r2c4 {
+  color: #2cd889;
+}
+.home__rc {
+  padding: 5px 10px;
+}
+.home__profile {
+  height: 80px;
+}

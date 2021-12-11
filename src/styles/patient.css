@@ -1,0 +1,29 @@
+.patient-tile {
+  display: flex;
+  background-color: #f5fcf9;
+  border-radius: 15px;
+  margin: 15px 10px;
+  padding: 10px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.patient-img {
+}
+.patient__img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+}
+.patient-tile > * {
+  margin-right: 20px;
+}
+
+.patient-name,
+.id {
+  font-weight: 600;
+}
+.date,
+.time {
+  font-weight: 500;
+  color: gray;
+}

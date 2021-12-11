@@ -1,0 +1,11 @@
+.appointmentGrid {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+.appointmentGrid__Top {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #f44336;
+}
